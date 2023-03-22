@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: var(--main-red);
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+}
+
+.navbar__list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.navbar__list a {
+  text-decoration: none;
+}
+
+.navbar__list a:link {
+  color: var(--main-white);
+}
+
+.navbar__list a:visited {
+  color: var(--main-white);
+}
+
+
