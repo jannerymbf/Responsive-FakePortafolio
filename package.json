@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "live-server --open=./src"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
