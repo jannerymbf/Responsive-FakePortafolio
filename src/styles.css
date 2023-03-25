@@ -133,3 +133,20 @@ html {
   color: var(--main-white);
   vertical-align: middle;
 }
+
+.work__btn-container {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.work__btn {
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--main-gray);
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  color: var(--main-white);
+}
