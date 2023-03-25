@@ -102,3 +102,33 @@ html {
   width: 100%;
   border-top: 2px solid var(--main-white);
 }
+
+.work__projects {
+  width: 100%;
+  /* padding: 50px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px); /*para hacer un efecto de wrap */
+  text-align: center;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.work__projects a {
+  text-decoration: none;
+  background-color: var(--main-gray);
+}
+
+.work__projects a img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.work__projects p {
+  height: 50px;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  color: var(--main-white);
+  vertical-align: middle;
+}
