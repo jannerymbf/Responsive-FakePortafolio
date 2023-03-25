@@ -105,9 +105,9 @@ html {
 
 .work__projects {
   width: 100%;
-  /* padding: 50px; */
+  padding: 10px 30px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px); /*para hacer un efecto de wrap */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px)); /*para hacer un efecto de wrap */
   text-align: center;
   justify-content: center;
   column-gap: 30px;
@@ -120,13 +120,14 @@ html {
 }
 
 .work__projects a img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: calc(100% - 50px);
   object-fit: cover;
 }
 
 .work__projects p {
   height: 50px;
+  padding-top: 10px;
   font-family: Poppins, sans-serif;
   font-size: 1.6rem;
   color: var(--main-white);
