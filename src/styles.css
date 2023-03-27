@@ -223,3 +223,16 @@ footer {
   color: var(--main-white);
   text-align: center;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 461px) {
+  .navbar__list {
+    padding-right: 15px;
+    justify-content: flex-end;
+  }
+
+  .contact__network {
+    flex-direction: row;
+  }
+}
