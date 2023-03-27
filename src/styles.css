@@ -181,6 +181,14 @@ html {
   font-style: italic;
 }
 
+.contact__network {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
 .contact__network a {
   padding: 0 10px;
   font-family: Poppins, sans-serif;
