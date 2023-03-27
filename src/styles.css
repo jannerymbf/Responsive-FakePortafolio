@@ -191,6 +191,7 @@ html {
 
 .contact__network a {
   padding: 0 10px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
   font-family: Poppins, sans-serif;
   font-size: 2rem;
   text-decoration: none;
@@ -203,3 +204,7 @@ html {
 .contact__network a:visited {
   color: var(--main-white);
 }
+
+/* Styles for footer */
+
+
