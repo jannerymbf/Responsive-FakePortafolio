@@ -231,6 +231,10 @@ footer {
 /* Media queries */
 
 @media screen and (min-width: 461px) {
+  html {
+    font-size: 75%;
+  }
+
   .navbar__list {
     padding-right: 15px;
     justify-content: flex-end;
@@ -242,6 +246,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+
   .navbar__list {
     gap: 0;
   }
