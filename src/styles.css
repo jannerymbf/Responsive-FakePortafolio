@@ -147,6 +147,10 @@ html {
 .work__btn {
   width: 150px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   border: none;
   border-radius: 2px;
   background-color: var(--main-gray);
@@ -235,4 +239,28 @@ footer {
   .contact__network {
     flex-direction: row;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar__list {
+    gap: 0;
+  }
+
+  .navbar__list li {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar__list li:hover {
+    height: 100%;
+    background-color: var(--main-blue);
+  }
+
+  .work__btn:hover {
+    background-color: var(--main-red);
+    cursor: pointer;
+  }
+
 }
