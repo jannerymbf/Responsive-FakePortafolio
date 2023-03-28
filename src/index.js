@@ -13,7 +13,8 @@ const btnProject =document.getElementById('button-show-projects');
 const btnIcon = document.getElementById('btn--icon');
 
 btnProject.addEventListener('mouseover', () => {
-  btnIcon.style.transform = 'translate(4px)'
+  btnIcon.style.transform = 'translate(4px)';
+  btnIcon.style.transition = 'transform 0.3s ease-out';
 })
 
 btnProject.addEventListener('mouseout', () => {
