@@ -263,4 +263,8 @@ footer {
     cursor: pointer;
   }
 
+  .contact__network a:hover {
+    transform: translateY(8px);
+    transition: transform 0.3s ease-out;
+  }
 }
